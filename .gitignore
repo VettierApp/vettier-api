@@ -1,0 +1,25 @@
+# Logs
+*.log
+
+# Node
+node_modules/
+.env
+yarn.lock
+
+# Project Cache
+.eslintcache
+
+# Project Specific
+config/database.js
+build/
+
+# OS auto-generated files
+.DS_Store
+._*
+.vscode/
+
+# Other docs
+*.xlsx
+
+#uploads
+src/api/v1/uploads
