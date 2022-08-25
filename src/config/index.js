@@ -15,5 +15,5 @@ module.exports = {
   refreshToken: process.env.REFRESH_TOKEN,
   testMailUser: process.env.MAIL_USER_TEST,
   testMailPassword: process.env.MAIL_PASSWORD_TEST,
-  dbURI: `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.jyhdc.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
+  dbURI: `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.pej7ome.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
 };
