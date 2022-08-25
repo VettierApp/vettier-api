@@ -1,0 +1,21 @@
+name: Javascript Linter
+
+on:
+  pull_request:
+    branches: [dev, master]
+  push:
+    branches: [dev, master]
+
+jobs:
+  javascript_linter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Installing dependencies
+        run: npm install
+      - name: Run Linter
+        run: npm run lint
